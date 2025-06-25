@@ -1,0 +1,42 @@
+App Store Analysis: Exploring Global Trends
+
+
+---
+
+## Google PlayStore App Analysis Dashboard
+
+This interactive dashboard provides a comprehensive analysis of over 1 million Google PlayStore applications as of June 2021. Built with Tableau, this tool allows users to explore key metrics, identify trends, and deep dive into specific app categories.
+
+### Key Features:
+
+* **Overview of PlayStore Landscape:**
+    * **Total App Count:** Get an instant view of the sheer volume of applications available, totaling 1,048,575 apps.
+    * **Top Categories:** Understand the most prominent app categories by app count, including Education, Music & Audio, Tools, Business, and Entertainment.
+    * **Free vs. Paid Apps:** See the distribution of free and paid applications, highlighting that 98% are free.
+    * **Rating Distribution:** Analyze the spread of app ratings across different ranges (e.g., 0.0 to 1.0, 4.0 to 5.0).
+    * **Download Distribution:** Observe the volume of downloads across different ranges (e.g., 0-5K, 5K-500K).
+    * **Update Trends:** Track the historical trend of app updates over the years, revealing significant development activity, particularly around 2020.
+
+* **Interactive App Performance Analysis:**
+    * **App Reviews vs. App Count Scatter Plot:** This visualization allows for a granular exploration of app performance. Each point represents a group of apps, showing their average rating against their total count.
+    * **Dynamic Category Filtering:** Clicking on any circle in the "App reviews vs App count" scatter plot will instantly filter the "Top Apps" bar chart to display only apps within that specific category. For instance, selecting the point for "Music & Audio" (Rating: 157K, App count: 70,311) will show top apps like Spotify and SoundCloud.
+    * **Top Apps by Category:** The dashboard dynamically displays the top-performing apps within "All Categories" (e.g., WhatsApp Messenger, Instagram, YouTube) or the currently selected category, along with their respective app counts (in millions).
+
+### How to Use the Dashboard:
+
+1.  **Overview:** Start by examining the main dashboard view to understand the overall trends in app categories, ratings, downloads, and update frequency.
+2.  **Explore App Performance:** Navigate to the "App reviews vs App count" scatter plot to identify interesting clusters or outliers.
+3.  **Filter by Category:** To see top apps within a specific category, simply click on the corresponding data point (circle) in the "App reviews vs App count" scatter plot. The "Top Apps" chart on the right will update automatically.
+4.  **Reset View:** To return to the "Top Apps in All category" view, you would typically click outside the selected data point or use a "Clear Filters" option if available on the Tableau Public interface.
+
+### Data Source:
+
+* Google Play Store Dataset from kaggle
+
+### Tools Used:
+
+* **Visualization:** Tableau Public
+
+Inspiration: G.Pradeep Kumar
+
+---
