@@ -6,3 +6,4 @@ Check out my interactive Tableau dashboard:
 Google Play Store Apps Dataset from Kaggle:
 https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
+Check out the medium post : https://medium.com/@himabindugayathri141/unlocking-the-play-store-what-millions-of-apps-tell-us-about-user-behaviour-success-a961039bfa47
